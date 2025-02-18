@@ -1,0 +1,19 @@
+#form1{
+    background-color: beige;
+
+}
+.form-container {
+    background: white;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    text-align: center;
+}   
+#divInp
+{
+    loerm
+    gap: 10px;
+    row-gap: 10px;
+    
+}
