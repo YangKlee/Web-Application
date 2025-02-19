@@ -1,0 +1,28 @@
+#Login-Form{
+   background-color: snow;
+   align-items: center;
+   align-self: center;
+   align-content: center;
+   width: auto;
+   height: auto;
+   border: 2px black;
+   border-radius: 10%;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Quy-Nhon-morning-city-view-1300px.jpg/1200px-Quy-Nhon-morning-city-view-1300px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.bt_style
+{
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 30px;
+}
