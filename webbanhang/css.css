@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	
+}
+a{
+	text-decoration:none;
+}
+ul li{
+ list-style:none;
+}
+.wrapper{
+	width:1000px;
+	height:550px;
+
+	margin:auto;
+}
+
+
+.header{
+	width:100%;
+	height:120px;
+	background-color:#000;
+
+}
+.menu{
+	width:100%;
+	height:30px;
+	overflow:hidden;
+	border:0.5px solid #999;
+	background-color:#fff;
+}
+.menu ul li{
+	float:left;
+	line-height:30px;
+	margin-left:5px;
+	margin-top:-3px;
+	padding:3px 5px;
+	}
+.menu ul li a:hover{
+background:#333;
+color:white;
+border-radius:20px;
+padding:0px 7px;
+	}
+.menu ul li a{
+
+	color:#000;
+	text-decoration:none;
+	} 
+.content{
+	width:100%;
+	height:520px;
+	border:0px solid #666;
+}
+
+.content table{
+margin:10px auto
+;}
+.left{
+	width:200px;
+	height:500px;
+	float: left;
+	background-color:#FFF;
+	}
+.left p{
+	padding:2px;
+	background-color:#666;
+	color:#FFF;
+	border-radius:0px 25px 25px 0px ;
+}
+.danhsachsanpham{
+	padding:5px 10px;
+}
+.danhsachsanpham ul li{
+	padding:5px;
+}
+.danhsachsanpham ul li a{
+	color:black;
+}
+.danhsachsanpham ul li:hover{
+	padding:7px;
+	background:#7e838a;
+	border-radius:0px 25px 25px 0px ;
+}
+.danhsachsanpham ul li a:hover{
+	color:white;
+}
+.right{
+	width:790px;
+	height:550px;
+	color:#000;
+	border-left:0.5px solid #666;
+	float: right;
+	}
+.tatcasanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.tatcasanpham ul li{
+	width:120px;
+	height:auto;
+	text-align:center;
+	float:left;
+	margin-left:27.5px;
+	margin:30px 28px 15px 10px;
+}
+.tatcasanpham ul li a{
+	text-decoration:none;
+	
+}
+.aosomi ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.aosomi ul li{
+	width:120px;
+	height:auto;
+	text-align:center;
+	float:left;
+	margin-left:27.5px;
+	margin:30px 28px 15px 10px;
+}
+.aosomi ul li a{
+	text-decoration:none;
+	color:black;
+	}
+.footer{
+	width:1000px;
+	margin:auto;
+	background-color:#666666;
+	overflow:hidden;
+}
+.endpage{
+		float:left;
+		width:300px;
+		padding:16.5px;
+		color:white;
+}
+
+.endpage h3{
+	width:250px;
+	border-bottom:2px solid white;
+}
+.endpage p{
+	padding:3px 0px;
+	font-size:15px;
+}
+#fromtim{
+float:right;
+margin:3 10 0 0;
+}
+.img{
+	width:100px;
+	height:100px;
+}
+.title{
+	text-align:center;
+	margin:0px auto;
+	width:200px;
+	padding:10px;
+	border-bottom:2px solid black;
+}
+#formdangnhap{
+	margin:150px;
+}
+.img1{
+margin:0px 0 -7px 0;
+}

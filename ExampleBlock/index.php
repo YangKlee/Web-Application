@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .box{
-            width: 10rem;
-            height: 100px;
-            background-color: red;
-        }
-    </style>
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box"></div>
+    <div id="a">
+    </div>
+    <div id="b">
+    </div>
+    <div id="c">
+    </div>
 </body>
 </html>
