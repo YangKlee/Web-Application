@@ -1,0 +1,79 @@
+/*reset css*/
+* { 
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+   
+    font-family:  Helvetica, Arial, sans-serif;
+}
+#main{
+    
+}
+#header{
+    height: 46px;
+    background-color: #000;
+}
+
+#nav li a{
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    
+}
+#nav > li:hover > a {
+    background-color: gray;
+
+}
+#nav > li{
+    display: inline-block;
+
+
+}
+#nav li{
+
+    line-height: 46px;
+
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav .subnav li a{
+    color: #000;
+    
+}
+
+#nav .subnav a
+{
+    display: none;
+
+}
+#nav li:hover .subnav a {
+   display: block;
+}
+#nav > li > a{
+    text-transform: uppercase;
+}
+.subnav > li > a:hover{
+    background-color: gray;
+}
+#nav .subnav{
+
+    position: absolute;
+    background-color: white;
+
+    
+}
+
+#slider{
+    min-height: 500px;
+    background-color: #333;
+}
+#content{
+
+}
+#footer{
+
+}
